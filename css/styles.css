@@ -1,0 +1,111 @@
+/*css reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+
+/*general styles*/
+
+body {
+    background-color: lemonchiffon;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid orange;
+}
+
+
+/*header styles*/
+
+header h1 {
+    font-family: serif;
+    font-size: 2rem;
+    font-style: italic;
+    width: auto;
+    display: inline-block;
+}
+
+header nav {
+    width: auto;
+    display: inline-block;
+    float: right;
+}
+
+header nav ul {
+    width: auto;
+}
+
+header nav ul li {
+    width: auto;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+header nav ul li a:hover {
+    color: blue;
+}
+
+
+/*content styles*/
+
+.wrapper .column {
+    width: 49%;
+    display: inline-block;
+    padding: 3%;
+    border: 1px solid grey;
+    vertical-align: top;
+}
+
+.wrapper .column img {
+    width: 100%;
+}
+
+
+/*slider styles */
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+
+/*footer styles*/
+
+
+/*responsive styles*/
