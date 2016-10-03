@@ -28,7 +28,6 @@ body {
 .wrapper {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid orange;
 }
 
 
@@ -75,7 +74,6 @@ header nav ul li a:hover {
     width: 49%;
     display: inline-block;
     padding: 3%;
-    border: 1px solid grey;
     vertical-align: top;
 }
 
@@ -83,7 +81,6 @@ header nav ul li a:hover {
     width: 90%;
     display: inline-block;
     padding: 3%;
-    border: 1px solid blue;
     vertical-align: top;
     margin-left: auto;
 }
